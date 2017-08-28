@@ -58,8 +58,8 @@ int oWidth(object/element el, boolean bool){
 	// get element width with, without css
 }
 
-string minsrv(string href, string html, function/undefined f){
-	f(object){
+string minsrv(string href, string html, function/undefined f(object){
+
 		object.imports // no. of items moved into restore
 		object.exports // no. of items loaded in iframe
 		object.type // event type
@@ -74,12 +74,13 @@ string minsrv(string href, string html, function/undefined f){
 		object.gutterwidth // gutter spacing x
 		object.gutterheight // gutter spacing y
 		object.flag // indicates grid method fired
-		object.serve(string id) // call another minserver
-		object.target(object event) // reference function sets 'target' on anchor elements
+		object.serve(url href, boolean bool, string id) // call another minserver
+		object.target(object event) // reference function, sets 'target' on anchor elements
 		object.preventDefault() // prevent further updates
-		object.overwrite() // overwrite restore when fired
+		object.overwrite() // overwrite restore the next time
 		object.set(string key, mixed value) // set property with validation
 		object.grid(string key, mixed value) // initialise grid setting and constants
-	}
+
+}){
 	// returns unique id, initialise, manage windows
 }
