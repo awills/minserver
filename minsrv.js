@@ -213,9 +213,15 @@
 				flag:0
 			} ;
 			
-			ini.serve=function(id){
+			ini.serve=function(href, bool, id){
 				
-				if(minref[id]) minref[id].anchor.click() ;
+				// prev type 'click'
+				that.type='load' ;
+				
+				that[id].anchor.href=href || that[id].anchor.href ;
+				that[id].overwrite=!!bool ;
+				
+				if(that[id]) that[id].anchor.click() ;
 			} ;
 			
 			ini.target=function(e){
