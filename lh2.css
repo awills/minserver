@@ -1,0 +1,41 @@
+/*
+	abrahm
+	29-06-17
+	relative line height lh1-6, margin lh1-6m, padding lh1-6p, radius lh1-6r, word-spacing lh1-6ws
+*/
+
+.lh6{line-height:188%;}
+.lh6m{margin:0.44em;}
+.lh6p{padding:0.44em;}
+.lh6r{border-radius:0.88em;}
+.lh6ws{word-spacing:0.22em;}
+
+.lh5{line-height:177%;}
+.lh5m{margin:0.385em;}
+.lh5p{padding:0.385em;}
+.lh5r{border-radius:0.77em;}
+.lh5ws{word-spacing:0.1925em;}
+
+.lh4{line-height:166%;}
+.lh4m{margin:0.33em;}
+.lh4p{padding:0.33em;}
+.lh4r{border-radius:0.66em;}
+.lh4ws{word-spacing:0.165em;}
+
+.lh3{line-height:155%;}
+.lh3m{margin:0.275em;}
+.lh3p{padding:0.275em;}
+.lh3r{border-radius:0.55em;}
+.lh3ws{word-spacing:0.1375em;}
+
+.lh2{line-height:144%;}
+.lh2m{margin:0.22em;}
+.lh2p{padding:0.22em;}
+.lh2r{border-radius:0.44em;}
+.lh2ws{word-spacing:0.11em;}
+
+.lh1{line-height:133%;}
+.lh1m{margin:0.165em;}
+.lh1p{padding:0.165em;}
+.lh1r{border-radius:0.33em;}
+.lh1ws{word-spacing:0.0825em;}
